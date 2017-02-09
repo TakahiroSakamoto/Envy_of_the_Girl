@@ -1,0 +1,1874 @@
+fileFormatVersion: 2
+guid: cc80a12251a28f34cb6d161b9ffa076b
+timeCreated: 1463622654
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cuerpo
+    100002: left
+    100004: Ojos
+    100006: //RootNode
+    100008: Body
+    100010: Eyes
+    100012: j_head
+    100014: j_l_ankle
+    100016: j_l_arm
+    100018: j_l_ball
+    100020: j_l_clavicle
+    100022: j_l_footEnd
+    100024: j_l_handEnd
+    100026: j_l_leg
+    100028: j_l_shoulder
+    100030: j_l_thight
+    100032: j_leftEyeEnd
+    100034: j_mouth
+    100036: j_mouthEnd
+    100038: j_neck
+    100040: j_r_ankle
+    100042: j_r_arm
+    100044: j_r_ball
+    100046: j_r_cravicre
+    100048: j_r_footEnd
+    100050: j_r_handEnd
+    100052: j_r_reg
+    100054: j_r_shourder
+    100056: j_r_thight
+    100058: j_rightEyeEnd
+    100060: j_root
+    100062: j_spine2
+    100064: j_spine3
+    100066: j_spine4
+    100068: LEye
+    100070: REye
+    100072: skeletonGroup
+    100074: back_IK
+    100076: Ctrl_Body
+    100078: Ctrl_BothEyes
+    100080: Ctrl_FwdLeftArm
+    100082: Ctrl_FwdRightArm
+    100084: Ctrl_Head
+    100086: Ctrl_l_knee
+    100088: Ctrl_LeftEye
+    100090: Ctrl_LeftFoot
+    100092: Ctrl_lowerBack
+    100094: Ctrl_master
+    100096: Ctrl_Mouth
+    100098: Ctrl_r_knee
+    100100: Ctrl_RightEye
+    100102: Ctrl_RightFoot
+    100104: Ctrl_upperBack
+    100106: ikBackcurve
+    100108: l_ankle_IK
+    100110: l_ball_IK
+    100112: l_heelPeelPivot
+    100114: l_toe_IK
+    100116: l_toeTapPivot
+    100118: lowerBackCluster
+    100120: r_ankle_IK
+    100122: r_ball_IK
+    100124: r_heelPeelPivot
+    100126: r_toe_IK
+    100128: r_toeTapPivot
+    100130: rigGroup
+    100132: upperBackCluster
+    400000: Cuerpo
+    400002: left
+    400004: Ojos
+    400006: //RootNode
+    400008: Body
+    400010: Eyes
+    400012: j_head
+    400014: j_l_ankle
+    400016: j_l_arm
+    400018: j_l_ball
+    400020: j_l_clavicle
+    400022: j_l_footEnd
+    400024: j_l_handEnd
+    400026: j_l_leg
+    400028: j_l_shoulder
+    400030: j_l_thight
+    400032: j_leftEyeEnd
+    400034: j_mouth
+    400036: j_mouthEnd
+    400038: j_neck
+    400040: j_r_ankle
+    400042: j_r_arm
+    400044: j_r_ball
+    400046: j_r_cravicre
+    400048: j_r_footEnd
+    400050: j_r_handEnd
+    400052: j_r_reg
+    400054: j_r_shourder
+    400056: j_r_thight
+    400058: j_rightEyeEnd
+    400060: j_root
+    400062: j_spine2
+    400064: j_spine3
+    400066: j_spine4
+    400068: LEye
+    400070: REye
+    400072: skeletonGroup
+    400074: back_IK
+    400076: Ctrl_Body
+    400078: Ctrl_BothEyes
+    400080: Ctrl_FwdLeftArm
+    400082: Ctrl_FwdRightArm
+    400084: Ctrl_Head
+    400086: Ctrl_l_knee
+    400088: Ctrl_LeftEye
+    400090: Ctrl_LeftFoot
+    400092: Ctrl_lowerBack
+    400094: Ctrl_master
+    400096: Ctrl_Mouth
+    400098: Ctrl_r_knee
+    400100: Ctrl_RightEye
+    400102: Ctrl_RightFoot
+    400104: Ctrl_upperBack
+    400106: ikBackcurve
+    400108: l_ankle_IK
+    400110: l_ball_IK
+    400112: l_heelPeelPivot
+    400114: l_toe_IK
+    400116: l_toeTapPivot
+    400118: lowerBackCluster
+    400120: r_ankle_IK
+    400122: r_ball_IK
+    400124: r_heelPeelPivot
+    400126: r_toe_IK
+    400128: r_toeTapPivot
+    400130: rigGroup
+    400132: upperBackCluster
+    2300000: Cuerpo
+    2300002: Ojos
+    2300004: Body
+    2300006: LEye
+    2300008: REye
+    3300000: Cuerpo
+    3300002: Ojos
+    3300004: Body
+    3300006: LEye
+    3300008: REye
+    4300000: Ojos
+    4300002: Cuerpo
+    4300004: Body
+    4300006: REye
+    4300008: LEye
+    7400000: POSE (not usable)
+    7400002: Static Down -SITTING-
+    7400004: Look left -SITTING-
+    7400006: Look Left (return) -SITTING-
+    7400008: Look Right -SITTING-
+    7400010: Look Right (return) -SITTING-
+    7400012: Creepiness#1 -SITTING- -L-
+    7400014: Creepiness#2 -SITTING- -L-
+    7400016: Creepiness#1 - SPLIT - Part1 - Init Body -SITTING-
+    7400018: Creepiness#1 - SPLIT - Part2 - Talk -SITTING- -L-
+    7400020: Creepiness#1 - SPLIT - Part3 - End, init pose -SITTING
+    7400022: From SITTING to STANDING
+    7400024: IDLE Breath -STANDING- -L-
+    7400026: Look and stay still -STANDING- -L-
+    7400028: Talk -STANDING- -L-
+    7400030: Static UP -STANDING-
+    7400032: Creepiness#3 -STANDING- -L-
+    7400034: From STANDING to SITTING
+    9500000: //RootNode
+    13700000: Body
+    13700002: LEye
+    13700004: REye
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Static Down -SITTING-
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Look left -SITTING-
+      takeName: Take 001
+      firstFrame: 6
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Look Left (return) -SITTING-
+      takeName: Take 001
+      firstFrame: 36
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Look Right -SITTING-
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 109
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Look Right (return) -SITTING-
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 153
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Creepiness#1 -SITTING- -L-
+      takeName: Take 001
+      firstFrame: 154
+      lastFrame: 255
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Creepiness#2 -SITTING- -L-
+      takeName: Take 001
+      firstFrame: 256
+      lastFrame: 384
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Creepiness#1 - SPLIT - Part1 - Init Body -SITTING-
+      takeName: Take 001
+      firstFrame: 385
+      lastFrame: 445
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Creepiness#1 - SPLIT - Part2 - Talk -SITTING- -L-
+      takeName: Take 001
+      firstFrame: 446
+      lastFrame: 470
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Creepiness#1 - SPLIT - Part3 - End, init pose -SITTING
+      takeName: Take 001
+      firstFrame: 471
+      lastFrame: 488
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: From SITTING to STANDING
+      takeName: Take 001
+      firstFrame: 489
+      lastFrame: 550
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: IDLE Breath -STANDING- -L-
+      takeName: Take 001
+      firstFrame: 551
+      lastFrame: 610
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Look and stay still -STANDING- -L-
+      takeName: Take 001
+      firstFrame: 611
+      lastFrame: 658
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Talk -STANDING- -L-
+      takeName: Take 001
+      firstFrame: 659
+      lastFrame: 689
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Static UP -STANDING-
+      takeName: Take 001
+      firstFrame: 690
+      lastFrame: 695
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Creepiness#3 -STANDING- -L-
+      takeName: Take 001
+      firstFrame: 696
+      lastFrame: 846
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: From STANDING to SITTING
+      takeName: Take 001
+      firstFrame: 847
+      lastFrame: 878
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyes
+        weight: 1
+      - path: Eyes/LEye
+        weight: 1
+      - path: Eyes/REye
+        weight: 1
+      - path: skeletonGroup
+        weight: 1
+      - path: skeletonGroup/j_root
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_l_thight/j_l_leg/j_l_ankle/j_l_ball/j_l_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball
+        weight: 1
+      - path: skeletonGroup/j_root/j_r_thight/j_r_reg/j_r_ankle/j_r_ball/j_r_footEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_l_clavicle/j_l_shoulder/j_l_arm/j_l_handEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_head
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_leftEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_mouth/j_mouthEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_neck/j_rightEyeEnd
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm
+        weight: 1
+      - path: skeletonGroup/j_root/j_spine2/j_spine3/j_spine4/j_r_cravicre/j_r_shourder/j_r_arm/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
