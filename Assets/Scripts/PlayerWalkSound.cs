@@ -3,19 +3,25 @@
 public class PlayerWalkSound : MonoBehaviour
 {
     [SerializeField] private AudioClip[] m_FootstepSounds;
+    [SerializeField] private AudioClip[] breathing;
     private AudioSource m_AudioSource;
+    [SerializeField] private AudioSource brethAudio;
     private float _nowTime;
     private bool _isDash;
     [SerializeField] private GameObject dashCollider;
     [SerializeField] private GameObject walkController;
     [SerializeField] private GameObject secondDashCollider;
 
+    [SerializeField] private GameObject dollTurn;
+
+
 
 
     // Use this for initialization
     private void Start()
     {
-        m_AudioSource = GetComponent<AudioSource>();
+       m_AudioSource = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -28,6 +34,13 @@ public class PlayerWalkSound : MonoBehaviour
             {
                 WalkSound();
                 _nowTime = 0.0f;
+
+                if (!brethAudio.isPlaying)
+                {
+                    brethAudio.clip = breathing[0];
+                    brethAudio.PlayOneShot(brethAudio.clip);
+                    print("StartAudio");
+                }
             }
         }
         else
@@ -37,6 +50,13 @@ public class PlayerWalkSound : MonoBehaviour
             {
                 WalkSound();
                 _nowTime = 0.0f;
+
+                if (!brethAudio.isPlaying)
+                {
+                    brethAudio.clip = breathing[1];
+                    brethAudio.PlayOneShot(brethAudio.clip);
+                    print("Dash!!");
+                }
             }
         }
     }
@@ -55,13 +75,19 @@ public class PlayerWalkSound : MonoBehaviour
         if (other.collider.gameObject.name == dashCollider.gameObject.name)
         {
             _isDash = true;
+            brethAudio.clip = breathing[1];
+            brethAudio.PlayOneShot(brethAudio.clip);
+            print("Dash!!");
         }
         else if (other.collider.gameObject.name == walkController.gameObject.name)
         {
             _isDash = false;
-        } else if (other.collider.gameObject.name == secondDashCollider.name)
+        } else if (other.collider.gameObject.name == secondDashCollider.gameObject.name)
         {
             _isDash = true;
+            dollTurn.SetActive(true);
+            Destroy(secondDashCollider.gameObject);
+            print("DollTurn SetActive(true)");
         }
     }
 

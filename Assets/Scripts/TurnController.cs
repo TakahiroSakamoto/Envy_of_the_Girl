@@ -27,7 +27,7 @@ public class TurnController : MonoBehaviour
     private void OnCollisionEnter(Collision other)
     {
         turnOn = GetComponent<GvrHead>();
-        print("Enter");
+
         if (other.collider.gameObject.name == turnPoint[0].gameObject.name)
         {
             OnTurn();
@@ -46,6 +46,14 @@ public class TurnController : MonoBehaviour
         } else if (other.collider.gameObject.name == turnPoint[4].gameObject.name)
         {
             OnTurn();
+        } else if (other.collider.gameObject.name == turnPoint[5].gameObject.name)
+        {
+            OnTurn();
+        } else if (other.collider.gameObject.name == turnPoint[6].gameObject.name)
+        {
+            UnTurn();
+            transform.parent.rotation = Quaternion.Euler(0,270,0);
+
         }
     }
 
@@ -54,20 +62,31 @@ public class TurnController : MonoBehaviour
         if (other.collider.gameObject.name == turnPoint[0].gameObject.name)
         {
             UnTurn();
-            transform.rotation = Quaternion.Euler(0,0,0);
+            transform.rotation = Quaternion.Euler(0,-10,0);
         }
         else if(other.collider.gameObject.name == turnPoint[1].gameObject.name)
         {
-            UnTurn();
+            transform.parent.rotation = Quaternion.Euler(0,-30,0);
 
+            UnTurn();
         } else if (other.collider.gameObject.name == turnPoint[2].gameObject.name)
         {
             print("FrontDoor");
         } else if (other.collider.gameObject.name == turnPoint[3].gameObject.name)
         {
             UnTurn();
-            transform.rotation = Quaternion.Euler(0,180,0);
+            transform.parent.rotation = Quaternion.Euler(0,30,0);
             print("WalkTrun");
+        } else if (other.collider.gameObject.name == turnPoint[4].gameObject.name)
+        {
+            UnTurn();
+            transform.parent.rotation = Quaternion.Euler(0,83,0);
+        } else if (other.collider.gameObject.name == turnPoint[5].gameObject.name)
+        {
+
+        } else if (other.collider.gameObject.name == turnPoint[6].gameObject.name)
+        {
+            //UnTurn();
         }
     }
 
