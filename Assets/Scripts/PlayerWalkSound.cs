@@ -11,6 +11,8 @@ public class PlayerWalkSound : MonoBehaviour
     [SerializeField] private GameObject dashCollider;
     [SerializeField] private GameObject walkController;
     [SerializeField] private GameObject secondDashCollider;
+    [SerializeField] private GameObject DushZombi;
+    [SerializeField] private GameObject isDoll;
 
     [SerializeField] private GameObject dollTurn;
 
@@ -39,7 +41,7 @@ public class PlayerWalkSound : MonoBehaviour
                 {
                     brethAudio.clip = breathing[0];
                     brethAudio.PlayOneShot(brethAudio.clip);
-                    print("StartAudio");
+                   // print("StartAudio");
                 }
             }
         }
@@ -55,7 +57,7 @@ public class PlayerWalkSound : MonoBehaviour
                 {
                     brethAudio.clip = breathing[1];
                     brethAudio.PlayOneShot(brethAudio.clip);
-                    print("Dash!!");
+                    //print("Dash!!");
                 }
             }
         }
@@ -88,8 +90,17 @@ public class PlayerWalkSound : MonoBehaviour
             dollTurn.SetActive(true);
             Destroy(secondDashCollider.gameObject);
             print("DollTurn SetActive(true)");
+        } else if (other.collider.gameObject.name == DushZombi.gameObject.name)
+        {
+            _isDash = true;
         }
     }
 
-
+    private void OnCollisionExit(Collision other)
+    {
+        if (other.collider.gameObject.name == isDoll.gameObject.name)
+        {
+            _isDash = false;
+        }
+    }
 }

@@ -15,7 +15,8 @@ public class ZombiController : MonoBehaviour
     {
         if (other.collider.gameObject.name == animationController.name)
         {
-            zombi.GetComponent<Animator>().SetBool("IsSttanding",true);
+            zombi.SetActive(true);
+            //zombi.GetComponent<Animator>().SetBool("IsSttanding",true);
         }
     }
 }

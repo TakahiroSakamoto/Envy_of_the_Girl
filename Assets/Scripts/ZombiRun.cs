@@ -23,13 +23,29 @@ public class ZombiRun : MonoBehaviour {
     {
         if (other.collider.gameObject.name == animationController.name)
         {
-            zombi.SetActive(true);
-            //zombiAnimator.enabled = true;
-            agent = zombi.GetComponent<NavMeshAgent> ();
-            agent.speed = 3;
-            //zombiAnimator = GetComponent<Animator>();
-            //zombiAnimator.SetBool("IsWalk",true);
-            agent.SetDestination(animationController.transform.position);
+            Invoke("BornZombi", 1.5f);
         }
     }
+
+    void BornZombi()
+    {
+        zombi.SetActive(true);
+        //zombiAnimator.enabled = true;
+        agent = zombi.GetComponent<NavMeshAgent> ();
+        agent.speed = 4;
+        //zombiAnimator = GetComponent<Animator>();
+        //zombiAnimator.SetBool("IsWalk",true);
+        agent.SetDestination(animationController.transform.position);
+        Destroy(zombi,2f);
+    }
+
+    void DestroyZombi()
+    {
+
+    }
+
+//    void ShautZomib()
+//    {
+//
+//    }
 }

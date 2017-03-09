@@ -9,6 +9,9 @@ public class TurnController : MonoBehaviour
     private GvrHead turnOn;
 
     [SerializeField] private GameObject[] turnPoint;
+    [SerializeField] private GameObject batParticle;
+
+    [SerializeField] private GameObject isDollCollider;
 
 
 	// Use this for initialization
@@ -42,18 +45,27 @@ public class TurnController : MonoBehaviour
             OnTurn();
         } else if (other.collider.gameObject.name == turnPoint[3].gameObject.name)
         {
-            UnTurn();
+
         } else if (other.collider.gameObject.name == turnPoint[4].gameObject.name)
         {
             OnTurn();
         } else if (other.collider.gameObject.name == turnPoint[5].gameObject.name)
         {
             OnTurn();
+            print("DollTurn");
         } else if (other.collider.gameObject.name == turnPoint[6].gameObject.name)
         {
             UnTurn();
-            transform.parent.rotation = Quaternion.Euler(0,270,0);
-
+            transform.parent.rotation = Quaternion.Euler(0,180,0);
+        } else if (other.collider.gameObject.name == turnPoint[7].gameObject.name)
+        {
+            OnTurn();
+            print("ラストDush");
+        } else if (other.collider.gameObject.name == isDollCollider.gameObject.name)
+        {
+            print("人形Start");
+            Invoke("OnTurn", 4f);
+            print("人形Turn");
         }
     }
 
@@ -63,24 +75,26 @@ public class TurnController : MonoBehaviour
         {
             UnTurn();
             transform.rotation = Quaternion.Euler(0,-10,0);
+            Destroy(batParticle);
         }
         else if(other.collider.gameObject.name == turnPoint[1].gameObject.name)
         {
-            transform.parent.rotation = Quaternion.Euler(0,-30,0);
-
             UnTurn();
+            transform.parent.rotation = Quaternion.Euler(0,-50,0);
         } else if (other.collider.gameObject.name == turnPoint[2].gameObject.name)
         {
             print("FrontDoor");
         } else if (other.collider.gameObject.name == turnPoint[3].gameObject.name)
         {
             UnTurn();
-            transform.parent.rotation = Quaternion.Euler(0,30,0);
+            transform.parent.rotation = Quaternion.Euler(0,0,0);
+
             print("WalkTrun");
         } else if (other.collider.gameObject.name == turnPoint[4].gameObject.name)
         {
             UnTurn();
             transform.parent.rotation = Quaternion.Euler(0,83,0);
+            Destroy(turnPoint[4]);
         } else if (other.collider.gameObject.name == turnPoint[5].gameObject.name)
         {
 
@@ -101,6 +115,7 @@ public class TurnController : MonoBehaviour
         turnOn.trackRotation = false;
         print("UnGyaro");
     }
+
 }
 
 
